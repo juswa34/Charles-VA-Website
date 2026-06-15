@@ -1,0 +1,40 @@
+{
+  "experience": [
+    {
+      "role": "Freelance VA & Social Media Manager",
+      "period": "2018 – Present",
+      "org": "Independent / Freelance Remote · Romblon, Philippines",
+      "points": [
+        "Provided virtual assistance and social media management to local businesses, supporting growth in online presence and brand awareness.",
+        "Handled administrative tasks, client communications, scheduling, research, and content management simultaneously for multiple clients.",
+        "Managed content planning, publishing, monitoring, audits, and reporting across Facebook, Instagram, and other platforms.",
+        "Designed graphics and promotional content using Canva; managed paid and organic campaigns via Meta Business Suite.",
+        "Conducted OSINT research, threat intelligence analysis, and blockchain research for technical clients.",
+        "Maintained organized workflows using Trello, Google Workspace, and Clockify to meet all client deadlines."
+      ]
+    },
+    {
+      "role": "Co-Developer – RSU CyberEd Platform",
+      "period": "2023 – 2024",
+      "org": "Romblon State University · Romblon, Philippines",
+      "points": [
+        "Coordinated digital content, documentation, and project timelines for an institutional e-learning platform.",
+        "Co-developed RSU CyberEd, an institutional cybersecurity e-learning platform."
+      ]
+    },
+    {
+      "role": "DICT SPARK Technical Training — General Virtual Assistance (GVA)",
+      "period": "2026",
+      "org": "Department of Information and Communications Technology (DICT) Philippines",
+      "points": [
+        "Completed DICT SPARK Technical Training covering administrative support, social media management, remote work tools, and professional client communication."
+      ]
+    }
+  ],
+  "achievements": [
+    "Civil Service Professional Eligibility – Career Service Commission, Philippines",
+    "Hack4Gov – Regional & National Placement (DICT Philippines Cybersecurity Competition)",
+    "Co-developed RSU CyberEd, an institutional cybersecurity e-learning platform",
+    "Active Web3 contributor: Testnet validator, airdrop participant, DePIN network contributor"
+  ]
+}

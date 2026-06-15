@@ -1,0 +1,43 @@
+{
+  "va": [
+    { "title": "Administrative Support", "desc": "Email management, calendar scheduling, data entry, file organization." },
+    { "title": "Research & Analysis", "desc": "Web research, OSINT investigation, competitor and market research." },
+    { "title": "Technical Support", "desc": "IT troubleshooting, tool onboarding, cybersecurity awareness." },
+    { "title": "Blockchain & Web3 Support", "desc": "On-chain analysis, wallet monitoring, airdrop and DePIN tracking." },
+    { "title": "AI-Powered Tasks", "desc": "Content generation, research automation, prompt engineering." }
+  ],
+  "smm": [
+    { "title": "Strategy & Publishing", "desc": "Strategy planning, content publishing, and post management." },
+    { "title": "Page Setup & Design", "desc": "Page setup, design, and social media platform audits." },
+    { "title": "Content Creation", "desc": "Unique content creation — graphics and video using Canva." },
+    { "title": "Campaign & Community", "desc": "Campaign and community management, brand awareness building." },
+    { "title": "Engagement & Reporting", "desc": "Customer service, audience engagement, daily monitoring & reporting." },
+    { "title": "Promotion", "desc": "Promotion of products and services across all major platforms." }
+  ],
+  "pricing": [
+    {
+      "name": "Starter VA",
+      "price": "$15",
+      "period": "/hour",
+      "desc": "Essential administrative support for day-to-day operations.",
+      "features": ["Email & calendar management", "Data entry & file org", "Web research", "10 hours / week minimum"],
+      "featured": false
+    },
+    {
+      "name": "Social Media Pro",
+      "price": "$350",
+      "period": "/month",
+      "desc": "Full social media management to grow your online presence.",
+      "features": ["Content strategy & publishing", "Graphics & video (Canva)", "Community management", "Monthly performance reports", "3 platforms included"],
+      "featured": true
+    },
+    {
+      "name": "Technical & Web3",
+      "price": "$25",
+      "period": "/hour",
+      "desc": "Specialized technical, OSINT, and blockchain research support.",
+      "features": ["OSINT investigation", "On-chain & wallet analysis", "AI-powered automation", "Cybersecurity awareness", "Custom reporting"],
+      "featured": false
+    }
+  ]
+}

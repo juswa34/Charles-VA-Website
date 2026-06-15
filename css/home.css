@@ -1,0 +1,148 @@
+/* ============================================================
+   Home page specific styles
+   ============================================================ */
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  padding: 5rem 0 4.5rem;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -120px; right: -120px;
+  width: 420px; height: 420px;
+  border-radius: 50%;
+  background: var(--hero-grad);
+  opacity: 0.18;
+  filter: blur(10px);
+  z-index: 0;
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-badge { margin-bottom: 1.1rem; background: var(--surface); }
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.02em;
+}
+.grad-text {
+  background: var(--hero-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-role {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent-deep);
+  margin-bottom: 0.9rem;
+}
+.hero-tagline {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  max-width: 520px;
+  margin-bottom: 1.2rem;
+}
+.hero-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-bottom: 1.8rem;
+}
+.hero-traits li {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.85rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--heading);
+}
+.hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+/* ---------- Hero visual card ---------- */
+.hero-visual { display: flex; justify-content: center; }
+.hero-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 2.2rem;
+  text-align: center;
+  box-shadow: 0 12px 40px var(--shadow);
+  width: 100%;
+  max-width: 340px;
+}
+.hero-card .avatar {
+  width: 90px; height: 90px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: var(--hero-grad);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 2rem; font-weight: 800;
+  letter-spacing: 0.05em;
+}
+.hero-card h3 { font-size: 1.15rem; margin-bottom: 0.3rem; }
+.hero-card p { color: var(--text-muted); font-size: 0.92rem; }
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.hero-stats div { display: flex; flex-direction: column; }
+.hero-stats strong {
+  font-size: 1.6rem;
+  color: var(--accent-deep);
+  line-height: 1;
+}
+.hero-stats span { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.25rem; }
+
+/* ---------- Cards ---------- */
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  width: 56px; height: 56px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface);
+  border-radius: 14px;
+}
+.card h3 { font-size: 1.2rem; margin-bottom: 0.4rem; }
+.card p { color: var(--text-muted); font-size: 0.96rem; }
+
+/* ---------- Pillars ---------- */
+.pillars-grid { margin-top: 1rem; }
+.pillar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem;
+  border-left: 4px solid var(--accent);
+  transition: transform 0.25s;
+}
+.pillar:hover { transform: translateY(-4px); }
+.pillar span {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.5;
+}
+.pillar h4 { margin: 0.5rem 0 0.3rem; font-size: 1.05rem; }
+.pillar p { color: var(--text-muted); font-size: 0.9rem; }
+
+@media (max-width: 768px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-text h1 { font-size: 2.2rem; }
+  .hero-visual { order: -1; }
+}

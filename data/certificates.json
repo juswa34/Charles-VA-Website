@@ -1,0 +1,27 @@
+{
+  "certifications": [
+    { "title": "Fundamentals of DeFi", "issuer": "AnChain.AI", "date": "Jun 2026" },
+    { "title": "Fundamentals of Ethereum and Smart Contracts", "issuer": "AnChain.AI", "date": "Jun 2026" },
+    { "title": "On-Chain Analysis for Beginners", "issuer": "Binance Academy", "date": "May 2026" },
+    { "title": "AWS AI Practitioner", "issuer": "Udacity / Accenture", "date": "May 2026" },
+    { "title": "Certified OSINT Research Analyst (CORA)", "issuer": "Red Team Leaders", "date": "Feb 2026" },
+    { "title": "Certified AI Security & Risk (CAISR)", "issuer": "Red Team Leaders", "date": "Feb 2026" },
+    { "title": "Forensic Security: Threat Intelligence", "issuer": "IADALE Learning Center", "date": "Nov 2025" },
+    { "title": "Google Cybersecurity Specialization", "issuer": "Google", "date": "Sep 2025" },
+    { "title": "Certified Cyber Security Analyst Premium (C3SA)", "issuer": "CyberWarFare Labs", "date": "Jun 2025" }
+  ],
+  "education": [
+    {
+      "degree": "Master of Information Technology (In Progress)",
+      "school": "Romblon State University (RSU)",
+      "location": "Romblon, Philippines",
+      "period": "2026 – Present"
+    },
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "school": "Romblon State University (RSU)",
+      "location": "Romblon, Philippines",
+      "period": "Graduated 2026"
+    }
+  ]
+}

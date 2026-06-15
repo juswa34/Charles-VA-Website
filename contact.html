@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Charles Joshua Dela Austria</title>
+  <meta name="description" content="Get in touch with Charles Joshua P. Dela Austria. Book a Calendly call, send a message, or connect on social media.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function(){
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+    })();
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-brand">Charles<span>.</span>VA</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+            <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <header class="page-hero">
+      <div class="container">
+        <h1>Let's Work Together</h1>
+        <p>Have a project in mind? Book a call, send a message, or connect with me on social media.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <!-- ===== Contact info cards ===== -->
+        <div class="grid grid-4 contact-info">
+          <div class="ci-card card fade-in">
+            <div class="ci-icon">📧</div>
+            <h3>Email</h3>
+            <p><a href="mailto:charles.delaustria@email.com">charles.delaustria@email.com</a></p>
+          </div>
+          <div class="ci-card card fade-in">
+            <div class="ci-icon">📍</div>
+            <h3>Location</h3>
+            <p>Odiongan, Romblon, Philippines</p>
+          </div>
+          <div class="ci-card card fade-in">
+            <div class="ci-icon">💼</div>
+            <h3>LinkedIn</h3>
+            <p><a href="https://linkedin.com/in/selrahc34" target="_blank" rel="noopener">/in/selrahc34</a></p>
+          </div>
+          <div class="ci-card card fade-in">
+            <div class="ci-icon">🟢</div>
+            <h3>Status</h3>
+            <p>Available for Remote Work</p>
+          </div>
+        </div>
+
+        <!-- ===== Calendly + Form ===== -->
+        <div class="grid grid-2 contact-main mt-2">
+          <!-- Calendly (integrated to Zoom) -->
+          <div class="calendly-wrap card fade-in">
+            <h3>📅 Book a Call</h3>
+            <p class="muted">Schedule a Zoom meeting directly via Calendly. Pick a time that works for you.</p>
+            <!-- Calendly inline widget. Replace the data-url with your real Calendly link. -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/charles-delaustria/30min" style="min-width:320px;height:560px;"></div>
+            <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <noscript>
+              <a href="https://calendly.com/charles-delaustria/30min" target="_blank" rel="noopener" class="btn btn-primary">Open Calendly →</a>
+            </noscript>
+          </div>
+
+          <!-- Contact form -->
+          <div class="form-wrap card fade-in">
+            <h3>✉ Send a Message</h3>
+            <form id="contactForm" action="https://calendly.com/charles-delaustria/30min" method="GET">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-row">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What can I help with?">
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message →</button>
+              <p class="form-note muted">This demo form opens your email / Calendly. Connect a backend or service like Formspree to receive submissions directly.</p>
+            </form>
+          </div>
+        </div>
+
+        <!-- ===== Social media ===== -->
+        <div class="social-block fade-in mt-2">
+          <h2 class="section-title">Connect on Social</h2>
+          <p class="section-subtitle">Find me across the platforms I manage and love.</p>
+          <div class="social-grid">
+            <a href="https://linkedin.com/in/selrahc34" target="_blank" rel="noopener" class="social-link">
+              <span class="social-ic">in</span>
+              <span class="social-name">LinkedIn</span>
+              <span class="social-handle">/in/selrahc34</span>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link">
+              <span class="social-ic">f</span>
+              <span class="social-name">Facebook</span>
+              <span class="social-handle">@charles.va</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link">
+              <span class="social-ic">◎</span>
+              <span class="social-name">Instagram</span>
+              <span class="social-handle">@charles.va</span>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link">
+              <span class="social-ic">✕</span>
+              <span class="social-name">Twitter / X</span>
+              <span class="social-handle">@charles_va</span>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-link">
+              <span class="social-ic">♪</span>
+              <span class="social-name">TikTok</span>
+              <span class="social-handle">@charles.va</span>
+            </a>
+            <a href="mailto:charles.delaustria@email.com" class="social-link">
+              <span class="social-ic">✉</span>
+              <span class="social-name">Email</span>
+              <span class="social-handle">Direct message</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/selrahc34" target="_blank" rel="noopener" title="LinkedIn">in</a>
+        <a href="mailto:charles.delaustria@email.com" title="Email">✉</a>
+        <a href="services.html" title="Services">★</a>
+      </div>
+      <p>&copy; <span id="year"></span> Charles Joshua P. Dela Austria. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="js/main.js"></script>
+</body>
+</html>
